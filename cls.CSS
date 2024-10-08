@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Train+One&display=swap');
+@import url(mobile.CSS);
+body{
+    margin: 0;
+    padding: 0;
+}
+.header .nav{
+    background-color: #2e6662;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header .nav .links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.header .nav .links a{
+    color: white;
+    text-decoration: none;
+}
+.header .nav .Button{
+    border: 1px solid white;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: .1rem;
+    cursor: pointer;
+}
+.header .nav .Button img{
+    width: 20px;
+}
+.header .hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    background-color: #074643;
+}
+.nav .Button {
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    justify-content: center;
+}
+.header .nav .Button button{
+    background-color: transparent;
+    color:#ffffff;
+    cursor: pointer;
+    border: none;
+}
+.nav{
+    display: flex;
+    gap: 2rem;
+}
+/* .button{
+    border: 1rem;
+    border-radius: 20px;
+   
+} */
+.hero{
+    background: #074643;
+}
+.header .hero{
+    margin: 0;
+    display: flex;
+    gap: 3rem;
+    color:#ffffff
+} 
+.text {
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.header .hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0;
+    /* display: flex; */
+    /* gap: 3rem;
+    color:#ffffff */ 
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 69%, 94% 99%, 23% 99%, 0 99%, 0 0);
+}
+#heading {
+    font-family: "Train One", system-ui;
+    display: flex;
+    flex-direction: column;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 85.43px;
+    text-align: left;
+}
+.hero .text .compa span {
+    font-family: "Inter", system-ui;
+    font-size: 66px;
+    font-weight: 800;
+    line-height: 79.880px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.hero .text .compa small {
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 37.53px;
+    text-align: left;
+}
+.compa{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hero .text .button{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 3rem;
+    padding: 20px 0px;
+    margin: 5px 0px;
+    align-items: center;
+}
+.hero .text .button button{
+    /* padding: 20px 31px; */
+    /* border-width: 10px; */
+    height: 39px;
+    border-radius: 27px;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button img{
+    width: 20px;
+    height: 20px;
+}
+.button span{
+    font-family: "Inter", system-ui;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 26.63px;
+}
+/* @media only screen and (max-width:480px){
+    .header .nav{
+        flex-direction: column;
+    }
+} */
+
